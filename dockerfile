@@ -2,5 +2,5 @@ FROM centos
 MAINTAINER rskr
 RUN yum install git -y
 WORKDIR /opt
-TOUCH  test.txt
+RUN touch  test.txt
 CMD ["/bin/bash/"] 
