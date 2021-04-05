@@ -1,5 +1,5 @@
-FROM ubuntu:latest
+FROM centos
 MAINTAINER rskr
-RUN apt-get install java -y
-RUN apt-get install git -y
+RUN yum install java -y
+RUN yum install git -y
 CMD ["/bin/bash/"] 
